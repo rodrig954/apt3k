@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dionel Rodriguez</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="instrumentales" description="pistas, instrumentales, musica, latina, hispana,dominicana, produccion, production, music, producer, ctoonz">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="core.css">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!-- Test Menu-->
+
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+
+
+	<link rel="icon"
+	type="image/png"
+	href="http://ctoonzmusic.com/enlabiitrola/images/FAV.png">
+
+</head>
+<body>
+
+
+	<div class="header">
+		<img src="images/APT3K-LOGO2.png"/></div>
+	</div>
+
+	<nav class="clearfix">
+		<ul class="clearfix">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="ourwork.html">Our Work</a></li>
+			<li><a href="https://twitter.com/ccreativestudio">Instagram</a></li>
+			<li><a href="https://twitter.com/ccreativestudio">Contact</a></li>
+		</ul>
+		<a href="#" id="pull">Navegation</a>
+	</nav>
+
+
+
+
+
+<div class="container">
+
+    <div class="servicebox">
+    	<section class="tittles"> Services </section>
+        <p>    	We are built to work smarter, faster, and more effectively.
+In 2008, the Harvard Business Review published a 37-page case study on our innovative, interdisciplinary work environment. Rather than putting “design” and “technology” on different floors (or in different cities), we sit together by project, not department. Each discipline is involved from beginning to end of every project.</p>
+    </div>
+
+     <div class="mediumservicebox">
+    	<section class="tittles"> Web Design</section>
+        <p> We are built to work smarter, faster, and more effectively.
+In 2008, the Harvard Business Review published a 37-page case study on our innovative, interdisciplinary work environment. Rather than putting “design” and “technology” on different floors (or in different cities), we sit together by project, not department. Each discipline is involved from beginning to end of every project.</p>
+    </div>
+
+ <div class="mediumservicebox">
+    	<section class="tittles"> Web Application Development</section>
+        <p> We are built to work smarter, faster, and more effectively.
+In 2008, the Harvard Business Review published a 37-page case study on our innovative, interdisciplinary work environment. Rather than putting “design” and “technology” on different floors (or in different cities), we sit together by project, not department. Each discipline is involved from beginning to end of every project.</p>
+    </div>
+
+     <div class="mediumservicebox">
+    	<section class="tittles"> Graphic Design </section>
+        <p> We are built to work smarter, faster, and more effectively.
+In 2008, the Harvard Business Review published a 37-page case study on our innovative, interdisciplinary work environment. Rather than putting “design” and “technology” on different floors (or in different cities), we sit together by project, not department. Each discipline is involved from beginning to end of every project.</p>
+    </div>
+
+     <div class="mediumservicebox">
+    	<section class="tittles"> Audio & Video Production</section>
+        <p> We are built to work smarter, faster, and more effectively.
+In 2008, the Harvard Business Review published a 37-page case study on our innovative, interdisciplinary work environment. Rather than putting “design” and “technology” on different floors (or in different cities), we sit together by project, not department. Each discipline is involved from beginning to end of every project.</p>
+    </div>
+
+	</div>
+
+
+		<footer>
+
+				<div class="bottom">
+
+					<ul class="footermenu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li class="footerlogo">
+							<img src="images/footerlogo.png"/>
+						<li><a href="https://twitter.com/ccreativestudio">Instagram</a></li>
+						<li><a href="https://twitter.com/ccreativestudio">Contact</a></li>
+					</ul>
+
+
+				</div>
+
+
+
+
+				<script type="text/javascript">
+				$(document).ready(function() {
+				$(".fancybox").fancybox();
+				});
+
+				</script>
+
+		</footer>
+
+
+</body>
+</html>

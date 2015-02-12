@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dionel Rodriguez</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="instrumentales" description="pistas, instrumentales, musica, latina, hispana,dominicana, produccion, production, music, producer, ctoonz">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="core.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+
+	<link rel="icon"
+	type="image/png"
+	href="http://ctoonzmusic.com/enlabiitrola/images/FAV.png">
+
+</head>
+<body>
+
+
+	<div class="header">
+		<img src="images/logo.png"/></div>
+	</div>
+
+	<nav class="clearfix">
+		<ul class="clearfix">
+			<li><a href="http://dionelrodriguez.com">Home</a></li>
+			<li><a href="http://ctoonzmusic.com/">Twitter</a></li>
+			<li><a href="https://www.facebook.com/ccreativestudio">Facebook</a></li>
+			<li><a href="https://twitter.com/ccreativestudio">Twitter</a></li>
+			<li><a href="contact.html">Contact Info.</a></li>
+		</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+
+<div class="container">
+
+
+	<div class="page-wrap">
+		<br>
+		For more information email me at dionel.rodriguez@hotmail.com
+
+	</div>
+</div>
+<footer>
+ <a href="#"><img src="images/TW.png"></a> <a href="#"><img src="images/FB.png"></a> <a href="#"><img src="images/EMAIL.png"></a>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".fancybox").fancybox();
+});
+
+</script>
+
+</footer>
+
+</div>
+
+</body>
+</html>
